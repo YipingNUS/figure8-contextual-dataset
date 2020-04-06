@@ -7,7 +7,7 @@ The resultant dataset covers a subset of IAB categories (both tier-1 and tier-2)
 Two files are provided here:
 
 1. `figure8_simplified.csv`: a simplified version of the original figure8 dataset following their categories. Remove all irrelevant fields and ignore the "Not working" cases. 
-2. `figure8_iag.csv`: mapped to IAB taxonomy categories. The URLs which cannot be mapped are removed.
+2. `figure8_iab.csv`: mapped to IAB taxonomy categories. The URLs which cannot be mapped are removed.
  
 ---
 
@@ -19,4 +19,4 @@ To create this large, enriched dataset of categorized websites, contributors cli
 
 ![summary](https://github.com/YipingNUS/figure8-contextual-dataset/blob/master/img/summary.png)
 
-
+License: [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) following the original Figure Eight dataset license.
