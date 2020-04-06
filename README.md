@@ -4,6 +4,11 @@ This dataset is created by mapping a publicly available dataset from [Figure 8](
 
 The resultant dataset covers a subset of IAB categories (both tier-1 and tier-2). It is by far the largest public dataset to evaluate contextual targeting classification. Another coarse-grained evaluation dataset can be found [here](https://github.com/YipingNUS/nle-supplementary-dataset).
 
+Two files are provided here:
+
+1. `figure8_simplified.csv`: a simplified version of the original figure8 dataset following their categories. Remove all irrelevant fields and ignore the "Not working" cases. 
+2. `figure8_iag.csv`: mapped to IAB taxonomy categories. The URLs which cannot be mapped are removed.
+ 
 ---
 
 The description of [the original dataset](https://d1p17r2m4rzlbo.cloudfront.net/wp-content/uploads/2016/03/URL-categorization-DFE.csv) is as follows:
